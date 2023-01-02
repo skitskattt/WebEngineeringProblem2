@@ -4,23 +4,23 @@
        xsi:schemaLocation="urn:Mensa.Namespace Mensaplan.xsd"
        xmlns="urn:Mensa.Namespace">
 
-        <stralsund>
-                <speiseplan>Speiseplan</speiseplan>
-                <datum id="18122022">
-                    <date>19.12.2022</date>
-                    <geschaeftsZeiten>
-                        ÖZ: 11.15 - 13.45,
-                        ÖZ - Cafeteria: 8.00 - 14.00
-                    </geschaeftsZeiten>
-                        <gerichtTyp>
-                            <typname> Tellergericht</typname>
-                            <gericht>
-                                <name>Brötchen</name>
-                                <ausgabe>Veg</ausgabe>
-                                <student>0,45€</student>
-                                <mitarbeiter>0,60€</mitarbeiter>
-                                <gast>0,60€</gast>
-                            </gericht>
+        <stralsundSpeiseplan id="19122022">
+                <date>19.12.2022</date>
+                <day>Montag</day>
+                <geschaeftsZeiten>
+                    ÖZ: 11.15 - 13.45,
+                    ÖZ - Cafeteria: 8.00 - 14.00
+                </geschaeftsZeiten>
+
+                <gerichtTyp>
+                    <typname> Tellergericht</typname>
+                    <gericht>
+                        <name>Brötchen</name>
+                        <ausgabe>Veg</ausgabe>
+                        <student>0,45€</student>
+                        <mitarbeiter>0,60€</mitarbeiter>
+                        <gast>0,60€</gast>
+                    </gericht>
 
                             <gericht>
                                 <name>4 Hefeklöße mit Fruchtsoße</name>
