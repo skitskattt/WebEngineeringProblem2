@@ -117,12 +117,34 @@
                         </gericht>
                     </gerichtTyp>
 
+                    <gerichtTyp>
+                        <typname>Gemüse</typname>
+                        <gericht>
+                            <name>Grüne Bohnengemüse</name>
+                            <student>0,70€</student>
+                            <mitarbeiter>1,00€</mitarbeiter>
+                            <gast>1,40€</gast>
+                        </gericht>
+
+                        <gericht>
+                            <name>Buntes Möhrengemüse</name>
+                            <ausgabe>1, 2</ausgabe>
+                            <student>0,70€</student>
+                            <mitarbeiter>1,00€</mitarbeiter>
+                            <gast>1,40€</gast>
+                        </gericht>
+                    </gerichtTyp>
+                    
+
                     <salateDesserts>
                         <typname>Salate und Desserts</typname>
                         <beschreibung>
                             Frische Salate und verschiedene Desserts stehen zur Auswahl.
                         </beschreibung>
                     </salateDesserts>
+
+
+
                 </gerichte>
 
         </stralsundSpeiseplan>
