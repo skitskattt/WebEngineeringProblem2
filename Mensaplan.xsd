@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="urn:Mensa.Namespace" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="mensa" type="urn:mensaType" xmlns:urn="urn:Mensa.Namespace"/>
+  <xs:complexType name="gerichtType">
+    <xs:sequence>
+      <xs:element name="name"/>
+      <xs:element name="ausgabe" minOccurs="0"/>
+      <xs:element name="student"/>
+      <xs:element name="mitarbeiter"/>
+      <xs:element name="gast"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="gerichtTypType">
+    <xs:sequence>
+      <xs:element name="typname" />
+      <xs:element type="urn:gerichtType" name="gericht" maxOccurs="unbounded" minOccurs="0" xmlns:urn="urn:Mensa.Namespace"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="gerichteType">
+    <xs:sequence>
+      <xs:element type="urn:gerichtTypType" name="gerichtTyp" maxOccurs="unbounded" minOccurs="0" xmlns:urn="urn:Mensa.Namespace"/>
+      <xs:element type="urn:salateDessertsType" name="salateDesserts" xmlns:urn="urn:Mensa.Namespace"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="salateDessertsType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="typname"/>
+      <xs:element type="xs:string" name="beschreibung"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="stralsundSpeiseplanType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="date"/>
+      <xs:element type="xs:string" name="geschaeftsZeiten"/>
+      <xs:element type="urn:gerichteType" name="gerichte" xmlns:urn="urn:Mensa.Namespace"/>
+      <xs:element type="urn:salateDessertsType" name="salateDesserts" xmlns:urn="urn:Mensa.Namespace"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="id"/>
+  </xs:complexType>
+  
+  <xs:complexType name="mensaType">
+    <xs:sequence>
+      <xs:element type="urn:stralsundSpeiseplanType" name="stralsundSpeiseplan" xmlns:urn="urn:Mensa.Namespace"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
