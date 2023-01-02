@@ -6,52 +6,52 @@
 
         <stralsundSpeiseplan id="19122022">
                 <date>19.12.2022</date>
-                <day>Montag</day>
+
                 <geschaeftsZeiten>
                     ÖZ: 11.15 - 13.45,
                     ÖZ - Cafeteria: 8.00 - 14.00
                 </geschaeftsZeiten>
+                <gerichte>
+                    <gerichtTyp>
+                        <typname>Tellergericht</typname>
+                        <gericht>
+                            <name>Brötchen</name>
+                            <ausgabe>Veg</ausgabe>
+                            <student>0,45€</student>
+                            <mitarbeiter>0,60€</mitarbeiter>
+                            <gast>0,60€</gast>
+                        </gericht>
 
-                <gerichtTyp>
-                    <typname> Tellergericht</typname>
-                    <gericht>
-                        <name>Brötchen</name>
-                        <ausgabe>Veg</ausgabe>
-                        <student>0,45€</student>
-                        <mitarbeiter>0,60€</mitarbeiter>
-                        <gast>0,60€</gast>
-                    </gericht>
+                        <gericht>
+                            <name>4 Hefeklöße mit Fruchtsoße</name>
+                            <ausgabe>Veg</ausgabe>
+                            <student>1,80€</student>
+                            <mitarbeiter>3,00€</mitarbeiter>
+                            <gast>4,30€</gast>
+                        </gericht>
+                    </gerichtTyp>
 
-                            <gericht>
-                                <name>4 Hefeklöße mit Fruchtsoße</name>
-                                <ausgabe>Veg</ausgabe>
-                                <student>1,80€</student>
-                                <mitarbeiter>3,00€</mitarbeiter>
-                                <gast>4,30€</gast>
-                            </gericht>
-                        </gerichtTyp>
+                    <gerichtTyp>
+                        <typname>Komponente 1</typname>
+                        <gericht>
+                            <name>Schlemmerfilet Brokkoli Käse</name>
+                            <ausgabe>1</ausgabe>
+                            <student>2,25€</student>
+                            <mitarbeiter>3,10€</mitarbeiter>
+                            <gast>3,05€</gast>
+                        </gericht>
+                    </gerichtTyp>
 
-                        <gerichtTyp>
-                            <typname>Komponente 1</typname>
-                            <gericht>
-                                <name>Schlemmerfilet Brokkoli Käse</name>
-                                <ausgabe>1</ausgabe>
-                                <student>2,25€</student>
-                                <mitarbeiter>3,10€</mitarbeiter>
-                                <gast>3,05€</gast>
-                            </gericht>
-                        </gerichtTyp>
-
-                        <gerichtTyp>
-                            <typname>Komponente 2</typname>
-                            <gericht>
-                                <name>Jagdwurstgulasch</name>
-                                <ausgabe></ausgabe>
-                                <student>2,25€</student>
-                                <mitarbeiter>3,10€</mitarbeiter>
-                                <gast>3,95€</gast>
-                            </gericht>
-                        </gerichtTyp>
+                    <gerichtTyp>
+                        <typname>Komponente 2</typname>
+                        <gericht>
+                            <name>Jagdwurstgulasch</name>
+                            <ausgabe></ausgabe>
+                            <student>2,25€</student>
+                            <mitarbeiter>3,10€</mitarbeiter>
+                            <gast>3,95€</gast>
+                        </gericht>
+                    </gerichtTyp>
 
                     <gerichtTyp>
                         <typname>Vegetarisch oder Vegan</typname>
@@ -68,7 +68,7 @@
                         <typname>Pasta nach Gewicht (Preis pro 100 g)</typname>
                         <gericht>
                             <name>Pastateller: Spiralen</name>
-                            <beilage>Bolognese</beilage>
+                            <ausgabe></ausgabe>
                             <student>0,60€</student>
                             <mitarbeiter>0,90€</mitarbeiter>
                             <gast>1,20€</gast>
@@ -77,26 +77,26 @@
 
                     <gerichtTyp>
                         <typname>Beilagen</typname>
-                        <kartoffeln>
+                        <gericht>
                             <name>Salzkartoffeln</name>
                             <ausgabe>1, 2</ausgabe>
                             <student>0,70€</student>
                             <mitarbeiter>1,00€</mitarbeiter>
                             <gast>1,40€</gast>
-                        </kartoffeln>
-                        <nudeln>
+                        </gericht>
+                        <gericht>
                             <name>Spiralen</name>
                             <ausgabe>1</ausgabe>
                             <student>0,70€</student>
                             <mitarbeiter>1,00€</mitarbeiter>
                             <gast>1,40€</gast>
-                        </nudeln>
-                        <reis>
+                        </gericht>
+                        <gericht>
                             <name>Kräuterreis</name>
                             <student>0,70€</student>
                             <mitarbeiter>1,00€</mitarbeiter>
                             <gast>1,40€</gast>
-                        </reis>
+                        </gericht>
                     </gerichtTyp>
 
                     <gerichtTyp>
@@ -123,7 +123,7 @@
                             Frische Salate und verschiedene Desserts stehen zur Auswahl.
                         </beschreibung>
                     </salateDesserts>
-                </datum>
-        </stralsund>
+                </gerichte>
 
+        </stralsundSpeiseplan>
 </mensa>
